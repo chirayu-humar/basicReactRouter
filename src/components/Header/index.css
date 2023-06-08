@@ -1,0 +1,30 @@
+/* Write your CSS code here */
+.outerHeader {
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+  width: 100%;
+  background-color: red;
+  justify-content: space-between;
+  align-items: center;
+}
+.outerHeaderChild1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.logoContainer {
+  width: 30px;
+  height: 30px;
+  margin-right: 20px;
+}
+.logo {
+  width: 100%;
+}
+.outerHeaderChild2 {
+  display: flex;
+  flex-direction: row;
+}
+.linkElements {
+  margin: 10px;
+}
